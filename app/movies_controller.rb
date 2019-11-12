@@ -5,7 +5,7 @@
 #   movie = __                     #   movie = Movie.new
 # end                              # end
 
-def Movie
+def can_be_instantiated_and_then_saved
   movie = movie.new
   movie.title = "This is a title."
   movie.save
