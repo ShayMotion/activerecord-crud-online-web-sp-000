@@ -1,6 +1,6 @@
 class CreateMovies < ActiveRecord::Migration[4.2]
   def change
-    add_column Movie do |t|
+    create_table Movie do |t|
       t.string :title
       t.integer :release_date
       t.string :director
